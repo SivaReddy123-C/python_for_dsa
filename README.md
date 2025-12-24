@@ -1,38 +1,19 @@
 # Python DSA Learning Repo
 
-A personal repository to learn Python for data structures and algorithms (DSA). Contains solutions, notes, and utilities.
+A personal repository to systematically learn **Data Structures & Algorithms using Python**.
+Each topic contains problem solutions, reusable templates, and concise notes.
 
-## Structure
-- solutions/
-  - arrays/
-  - strings/
-  - linked_list/
-  - trees/
-  - graphs/
-  - dp/
-  - utils/
-- notes/
-- README.md
+---
 
-## How to run solutions
-Each solution file contains a `solve()` or `main` function with input examples in comments.
-To run a solution:
-```
-python solutions/arrays/two_sum.py
-```
+## Learning Approach
+- One topic per week (e.g., Arrays, Strings)
+- Problems solved incrementally (easy → medium)
+- Emphasis on patterns, not brute memorization
+- Every solution includes:
+  - Time & space complexity
+  - Edge-case handling
+  - Clean, readable logic
 
-## Branching & contribution workflow
-- Work on a branch: `feature/<short-desc>` (e.g., `feature/week-02-arrays`)
-- Commit often: `git commit -m "feat: add sliding window template"`
-- Push branch: `git push -u origin feature/week-02-arrays`
-- Create a Pull Request on GitHub and merge once reviewed.
+---
 
-## Commit message guideline
-- Use short, meaningful messages:
-  - `feat: add binary-search template`
-  - `fix: handle edge-case for empty tree`
-  - `docs: update README`
-
-## Notes
-- I use `main` as the default branch.
-- Keep tests or example input in the same file as comments.
+## Repository Structure
